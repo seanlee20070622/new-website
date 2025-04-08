@@ -1,3 +1,37 @@
-*{
-    background-color: white;
+/* Set the background color to black and text color to white */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif; /* Optional: Change font to a more readable one */
+}
+
+/* Style for links */
+a {
+    color: #00bfff; /* Light blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover { /*takes place when a user hovers over an element, and the element responds with transition effects*/
+    color: #ff6347; /* Change link color to tomato red on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling for headings */
+h1, h2 {
+    color: white;
+}
+
+/* Styling for ordered list */
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Optional: Add padding to the body for better spacing */
+body {
+    padding: 20px;
 }
